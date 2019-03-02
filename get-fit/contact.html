@@ -1,0 +1,210 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="shortcut icon" href="img/fav.png">
+		<meta name="author" content="colorlib">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta charset="UTF-8">
+		<title>GetFit</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">		
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body>	
+			<header id="header">
+				<div class="header-top">
+					<div class="container">
+				  		<div class="row justify-content-center">
+						      <div id="logo">
+						        <a href="index.html"><img src="img/main-logo.png" style = "width: 95px; height: 95px;" alt="" title="" /></a>
+						      </div>
+				  		</div>			  					
+					</div>
+				</div>
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-center d-flex">			
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="all-programm.html">Программы питания</a></li>
+                            <li><a href="detox.html">Detox программы</a></li>
+                            <li><a href="menu.html">Меню</a></li>
+                            <li><a href="gallery.html">Галлерея</a></li>
+                            <li><a href="reviews.html">Отзывы</a></li>
+                            <li><a href="contact.html">Контакты</a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->					      		  
+					</div>
+				</div>
+			</header>
+			<!-- start banner  -->
+			<section class="banner-area" style="background:url(img/contact.jpg) center center/cover;">		
+				<div class="container">
+					<div class="row fullscreen align-items-center justify-content-between">
+						<div class="col-lg-12 banner-content">
+							<h6 class="text-white"></h6>
+							<h2 class="text-white" style="width: 78%;">Свяжитесь с нами</h2>
+							</p>
+							<a href="#myForm" class="primary-btn text-uppercase">Отправить письмо</a>
+						</div>
+					</div>
+				</div>					
+			</section>
+			<!-- End banner-->								  
+
+			<!-- Start contact-page Area -->
+			<section class="contact-page-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
+						<div class="col-lg-4 d-flex flex-column address-wrap">
+							<div class="single-contact-address d-flex flex-row">
+								<div class="icon">
+									<span class="lnr lnr-home"></span>
+								</div>
+								<div class="contact-details">
+									<h5>г. Алматы, Казахстан</h5>
+									<p>
+										Байзакова 56/8б уг. ул. Байзакова - Абая
+									</p>
+								</div>
+							</div>
+							<div class="single-contact-address d-flex flex-row">
+								<div class="icon">
+									<span class="lnr lnr-phone-handset"></span>
+								</div>
+								<div class="contact-details">
+									<h5>+7-778-87-78-877</h5>
+									<p>Пн - Пт 9.00 - 18.00</p>
+								</div>
+							</div>
+							<div class="single-contact-address d-flex flex-row">
+								<div class="icon">
+									<span class="lnr lnr-envelope"></span>
+								</div>
+								<div class="contact-details">
+									<h5>support@getfit.com</h5>
+									<p>Задавайте свои вопросы в любое время!</p>
+								</div>
+							</div>														
+						</div>
+						<div class="col-lg-8">
+							<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
+								<div class="row">	
+									<div class="col-lg-6 form-group">
+										<input name="name" placeholder="Ваше Имя" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ваше Имя'" class="common-input mb-20 form-control" required="" type="text">
+									
+										<input name="email" placeholder="Ваша почта" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ваша почта'" class="common-input mb-20 form-control" required="" type="email">
+
+										<input name="subject" placeholder="Тема письма" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Тема письма'" class="common-input mb-20 form-control" required="" type="text">
+									</div>
+									<div class="col-lg-6 form-group">
+										<textarea class="common-textarea form-control" name="message" placeholder="Ваше письмо" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ваше письмо'" required=""></textarea>				
+									</div>
+									<div class="col-lg-12">
+										<div class="alert-msg" style="text-align: left;"></div>
+										<button class="genric-btn primary" style="float: right;">Отправить письмо</button>											
+									</div>
+								</div>
+							</form>	
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End contact-page Area -->
+
+			<!-- start footer Area -->		
+			<footer class="footer-area">
+				<div class="footer-widget-wrap">
+					<div class="container">
+						<div class="row section-gap">
+							<div class="col-lg-4  col-md-6 col-sm-6">
+								<div class="single-footer-widget">
+									<h4>Мы открыты:</h4>
+									<ul class="hr-list">
+										<li class="d-flex justify-content-between">
+											<span>Понедельник - Пятница</span> <span>06.00  - 22.00 </span>
+										</li>
+										<li class="d-flex justify-content-between">
+											<span>Суббота</span> <span>08.00  - 21.00 </span>
+										</li>
+										<li class="d-flex justify-content-between">
+											<span>Воскресенье</span> <span>08.00 - 21.00 </span>
+										</li>																				
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-4  col-md-6 col-sm-6">
+								<div class="single-footer-widget">
+									<h4>Свяжитесь с нами:</h4>
+									<p>
+										г. Алматы, Байзакова 56/8, уг. ул. Байзакова - Абая
+									</p>
+									<p class="number">
+										+7-778-87-78-877 <br>
+										+7-701-10-70-170
+									</p>
+								</div>
+							</div>						
+							<div class="col-lg-4  col-md-6 col-sm-6">
+								<div class="single-footer-widget">
+									<h4>Для рассылок:</h4>
+									<p>Вы можете доверять нам, мы будем отправлять только промо - рассылки, не только спамы.</p>
+									<div class="d-flex flex-row" id="mc_embed_signup">
+
+
+										  <form class="navbar-form" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
+										    <div class="input-group add-on align-items-center d-flex">
+										      	<input class="form-control" name="EMAIL" placeholder="Ваш e-mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email address'" required="" type="email">
+												<div style="position: absolute; left: -5000px;">
+													<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+												</div>
+										      <div class="input-group-btn">
+										        <button class="genric-btn"><span class="lnr lnr-arrow-right"></span></button>
+										      </div>
+										    </div>
+										      <div class="info mt-20"></div>
+										  </form>
+									</div>
+								</div>
+							</div>						
+						</div>					
+					</div>					
+				</div>
+				<div class="footer-bottom-wrap">
+					<div class="container">
+						<div class="row footer-bottom d-flex justify-content-between align-items-center">	
+							<ul class="col-lg-4 col-mdcol-sm-6 -6 social-icons text-right" style="display: flex; justify-content: space-between;">
+	                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-vk"></i></a></li>           
+	                        </ul>
+						</div>						
+					</div>
+				</div>
+			</footer>
+			<!-- End footer Area -->
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>		
+ 			<script src="js/jquery-ui.js"></script>					
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>						
+			<script src="js/jquery.nice-select.min.js"></script>					
+			<script src="js/owl.carousel.min.js"></script>			
+            <script src="js/isotope.pkgd.min.js"></script>								
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
