@@ -4297,4 +4297,7 @@
 }
 
 }
-
+.btn-outline-danger
+{
+	float:right;margin-bottom:10px;
+}
