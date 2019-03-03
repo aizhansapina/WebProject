@@ -3778,9 +3778,9 @@
 	text-align:center;
 	border:1px solid #eee;
 	padding:50px 20px;
-	margin-top:50px;
 	width: 842px;
 	margin: auto;
+	margin-top: 50px;
 }
 .comment-form h4
 {
@@ -4206,8 +4206,8 @@
 }
 .testimonial .pic
 {
-	    width: 100px;
-	    height: 100px;
+	    width: 170px;
+	    height: 170px;
 	    position: absolute;
 	    top: 100px;
 	    left: 100px;
@@ -4300,4 +4300,10 @@
 .btn-outline-danger
 {
 	float:right;margin-bottom:10px;
+}
+.round 
+{
+		border: 20px solid #f6f6f6;
+		border-radius: 50%;
+		overflow: hidden;
 }
