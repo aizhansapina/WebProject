@@ -4295,7 +4295,16 @@
 	        content: "";
 	    
 }
-
+		.comment-form
+{
+		background:#fafaff;
+		text-align:center;
+		border:1px solid #eee;
+		padding:50px 20px;
+		width: 372px;
+		margin: auto;
+		margin-top: 50px;
+}
 }
 .btn-outline-danger
 {
